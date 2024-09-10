@@ -120,10 +120,16 @@ The frontend fetches deposit data from the backend and displays it in a real-tim
 ![Frontend Screenshot](https://github.com/VyasRishabh/LuganodesTask/blob/master/IMG1.png)
 
 *Caption: The Ethereum Deposit Tracker frontend displaying real-time deposit information.*
+![Frontend Screenshot](https://github.com/VyasRishabh/LuganodesTask/blob/master/IMG2.png)
+
+*Caption: The Ethereum Deposit Tracker frontend displaying real-time deposit information.*
+![Frontend Screenshot](https://github.com/VyasRishabh/LuganodesTask/blob/master/IMG3.png)
+
+*Caption: The Ethereum Deposit Tracker frontend displaying real-time deposit information.*
 
 ## Telegram Notifications
 
-![Telegram Notifications](path/to/telegram-screenshot.png)
+![Telegram Notifications](https://github.com/VyasRishabh/LuganodesTask/blob/master/IMG4.PNG)
 
 *Caption: Telegram notifications for new Ethereum deposits.*
 
