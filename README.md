@@ -12,6 +12,8 @@ A real-time tracker for Ethereum deposits using Web3 and MongoDB. This project m
 - [Backend Functionality](#backend-functionality)
 - [Frontend Functionality](#frontend-functionality)
 - [Dependencies](#dependencies)
+- [Screenshots](#screenshots)
+- [Telegram Notifications](#telegram-notifications)
 
 ## Prerequisites
 
@@ -23,9 +25,6 @@ Before you begin, make sure you have the following installed:
 - Ethereum Contract Address (for tracking deposits)
 
 Join the Telegram group to get notifications on Ethereum deposits.
-```
-https://t.me/+UUgVe2DG_hw0NTg1
-````
 
 ## Setup
 
@@ -113,3 +112,24 @@ The frontend fetches deposit data from the backend and displays it in a real-tim
 - `mongoose`: For MongoDB operations.
 - `dotenv`: For managing environment variables.
 - `socket.io`: For real-time communication between backend and frontend.
+
+## Screenshots
+
+### Frontend Interface
+
+![Frontend Screenshot](https://github.com/VyasRishabh/LuganodesTask/blob/master/IMG1.png)
+
+*Caption: The Ethereum Deposit Tracker frontend displaying real-time deposit information.*
+
+## Telegram Notifications
+
+![Telegram Notifications](path/to/telegram-screenshot.png)
+
+*Caption: Telegram notifications for new Ethereum deposits.*
+
+To add your screenshots:
+
+1. Save your frontend and Telegram screenshots in your project's repository, preferably in a `screenshots` or `images` folder.
+2. Update the image paths in the markdown above to point to your saved images.
+3. Adjust the captions as needed to accurately describe your specific implementation.
+
