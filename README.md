@@ -34,6 +34,9 @@ Before you begin, ensure you have the following:
 - ✅ Ethereum Contract Address (for tracking deposits)
 
 > 💡 Join the Telegram group to get notifications on Ethereum deposits.
+```
+https://t.me/+UUgVe2DG_hw0NTg1
+```
 
 ---
 
