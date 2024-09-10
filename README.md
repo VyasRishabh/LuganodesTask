@@ -133,9 +133,4 @@ The frontend fetches deposit data from the backend and displays it in a real-tim
 
 *Caption: Telegram notifications for new Ethereum deposits.*
 
-To add your screenshots:
-
-1. Save your frontend and Telegram screenshots in your project's repository, preferably in a `screenshots` or `images` folder.
-2. Update the image paths in the markdown above to point to your saved images.
-3. Adjust the captions as needed to accurately describe your specific implementation.
 
