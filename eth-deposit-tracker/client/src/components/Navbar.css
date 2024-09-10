@@ -1,0 +1,129 @@
+/* General Navbar Styles */
+.navbar {
+  background-color: #1b1b1b; /* Dark background for a modern look */
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+/* Navbar Container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  position: relative;
+}
+
+/* Navbar Logo */
+.navbar-logo {
+  color: #00ff99; /* Neon green color */
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar-logo:hover {
+  color: #00cc66; /* Slightly darker green on hover */
+  text-shadow: 0 0 5px #00ff99; /* Neon glow effect */
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  cursor: pointer;
+  align-items: flex-end;
+}
+
+.hamburger div {
+  background-color: #ecf0f1;
+  height: 3px;
+  width: 30px;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+/* Navigation Menu */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu.active {
+  display: flex; /* Show menu when active */
+}
+
+/* Navigation Menu Items */
+.nav-item {
+  margin-left: 1.5rem;
+}
+
+/* Navigation Links */
+.nav-link {
+  color: #ecf0f1; /* Light grey for readability */
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00ff99; /* Neon green on hover */
+  border-bottom: 2px solid #00ff99; /* Underline effect */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hamburger {
+    display: flex; /* Show hamburger icon on small screens */
+  }
+
+  .nav-menu {
+    display: none; /* Hide menu by default */
+    width: 100%;
+    flex-direction: row; /* Ensure items are in a row */
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #1b1b1b; /* Same background color as navbar */
+    position: absolute;
+    top: 60px; /* Position below the navbar */
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0; /* Hidden initially */
+    max-height: 0; /* Hidden initially */
+    overflow: hidden;
+  }
+
+  .nav-menu.active {
+    display: flex; /* Show menu when active */
+    opacity: 1; /* Fade-in effect */
+    max-height: 300px; /* Adjust height as needed */
+  }
+
+  .nav-item {
+    margin: 0 0.5rem;
+    width: auto; /* Adjust width for inline display */
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+    display: block;
+    width: auto; /* Adjust width for inline display */
+  }
+}

@@ -1,0 +1,71 @@
+/* src/styles/custom.css */
+
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.about-container {
+  margin-top: 12rem;
+  max-width: 800px;
+  margin: 75px auto;
+  padding: 20px;
+}
+
+.app-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.chart-container {
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.MuiTableCell-root {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.MuiTableCell-root:hover {
+  overflow: visible;
+  white-space: normal;
+  word-break: break-word;
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .chart-container {
+    height: 300px;
+  }
+
+  .MuiTableCell-root {
+    padding: 8px;
+    font-size: 0.75rem;
+  }
+}
+
+.project-link {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.resume-button {
+  margin-top: 20px;
+}

@@ -1,0 +1,115 @@
+/* Home Container */
+.home {
+  margin-top: 8rem;
+}
+
+/* Chart Container */
+.chart-container {
+  margin: 2rem 0; /* Add margin for spacing */
+}
+
+/* Responsive Chart Styling */
+.recharts-wrapper {
+  border-radius: 8px; /* Rounded corners for the chart container */
+  overflow: hidden; /* Hide overflow to maintain rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  background-color: #fff; /* White background for the chart container */
+}
+
+/* Table Container */
+.table-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+  padding: 0 15px; /* Optional padding for better appearance */
+  margin-top: 2rem; /* Add margin to separate from the chart */
+}
+
+/* Ensure the table takes up the full width */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 100%; /* Ensure full width for the table */
+  border: 1px solid #ddd; /* Add border for visual clarity */
+}
+
+/* Styling for table cells and headers */
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #040303;
+  white-space: nowrap; /* Prevent text from wrapping to new lines */
+}
+
+/* Set a minimum width for specific columns to ensure visibility */
+th:nth-child(4), td:nth-child(4) {
+  min-width: 150px; /* Adjust as needed for Hash */
+}
+
+th:nth-child(5), td:nth-child(5) {
+  min-width: 200px; /* Adjust as needed for Public Key */
+}
+
+th:nth-child(6), td:nth-child(6) {
+  min-width: 200px; /* Adjust as needed for Sender */
+}
+
+/* Headers and cell styles */
+th {
+  background-color: #333; /* Darker gray for better contrast */
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase; /* Uppercase headers for emphasis */
+}
+
+/* Hover effect for rows */
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Adjust font size and line height for better readability */
+th, td {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Add spacing between table rows for better readability */
+tr {
+  margin-bottom: 5px;
+}
+
+/* Chart Styling */
+.recharts-cartesian-axis-tick {
+  font-size: 12px; /* Smaller font size for axis ticks */
+}
+
+.recharts-tooltip-wrapper {
+  background-color: #333; /* Dark background for tooltip */
+  color: #fff; /* White text for tooltip */
+}
+
+.recharts-line {
+  stroke-width: 2px; /* Thicker line for the chart */
+}
+
+.recharts-legend-item {
+  font-size: 12px; /* Smaller font size for legend items */
+}
+.filter-buttons {
+  margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+  background-color: #00ff99; /* Neon green */
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.filter-buttons button:hover {
+  background-color: #00cc66; /* Slightly darker green */
+}
